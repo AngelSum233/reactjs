@@ -24,11 +24,11 @@ const Example1 = ()=>{
         </ul>
         {/* 下面的内容展示 */}
         <Switch>
-            <Route path='/'>
-                <Home />
+            <Route path='/' exact>
+              <Home />
             </Route>
             <Route path='/about'>
-                <About />
+              <About />
             </Route>
             <Route path='/dashboard'>
                 <Dashboard />
@@ -44,5 +44,14 @@ const Home = ()=>{
     <div>Home</div>
   )
 }
-
+const About = ()=>{
+  return(
+    <div>About</div>
+  )
+}
+const Dashboard = ()=>{
+  return(
+    <div>Dashboard</div>
+  )
+}
 export default Example1

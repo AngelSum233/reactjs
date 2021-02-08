@@ -43,4 +43,9 @@ const route = [
 </Switch>
 ```
 ## useParams()
-`url的参数,相关例子:example2`
+`url的参数,相关例子:example2`  
+在项目中主要用于地址栏和界面相关元素的显示
+## useRouteMatch()
+`套娃式路由跳转,相关例子:example3`
+## Redirect
+`重定向,相关例子:example4`

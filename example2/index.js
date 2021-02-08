@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  BrowerRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Link,
@@ -36,3 +36,4 @@ const Child = ()=>{
     </div>
   )
 }
+export default Example2
