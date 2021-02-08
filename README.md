@@ -1,7 +1,7 @@
 # reactjs学习  
 
 ## route 
-`有关路由的跳转,点击标题,内容发生改变.相关例子:example1`  
+`有关路由的跳转,点击标题,内容发生改变.相关例子:example1-route example1`  
 
 ``` javascript
 // 引入 
@@ -43,9 +43,9 @@ const route = [
 </Switch>
 ```
 ## useParams()
-`url的参数,相关例子:example2`  
+`url的参数,相关例子:example1-route example2`  
 在项目中主要用于地址栏和界面相关元素的显示
 ## useRouteMatch()
-`套娃式路由跳转,相关例子:example3`
+`套娃式路由跳转,相关例子:example1-route example3`
 ## Redirect
-`重定向,相关例子:example4`
+`重定向,相关例子:example1-route example4`
